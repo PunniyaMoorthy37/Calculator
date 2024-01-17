@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    background-color: #ecf0f3;
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.inputs{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+   display: grid;
+   grid-template-columns: repeat(4,69px);
+  
+
+}
+input{
+   grid-column: span 4;
+   padding: 20px;
+   height: 70px;
+   width: 260px;
+   text-align: end;
+   font-size: 50px;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   background-color:#ecf0f3;
+   box-shadow: inset -5px -5px 12px #ffffff,
+               inset 5px 5px 12px rgba(0,0,0,.16);
+border-radius: 30px;
+border: none;
+color: rgb(70,70,70);
+}
+button{
+      height: 48px;
+      width: 48px;
+      margin: 8px;   
+   
+      font-size: 16px;
+      border-radius: 50%;
+      background-color: #ecf0f3;
+      border: none;
+      box-shadow: inset -5px -5px 12px #ffffff,
+       5px 5px 12px rgba(0,0,0,.16);
+}
+button:active
+{
+    box-shadow: inset -5px -5px 12px #ffffff,
+    inset 5px 5px 12px rgba(0,0,0,.16);
+    
+}
